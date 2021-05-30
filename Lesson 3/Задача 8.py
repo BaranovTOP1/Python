@@ -1,0 +1,6 @@
+a = input('Введите число: ')
+res = int(a[0:-3])
+res1 = int(a[1:-2])
+res2 = int(a[2:-1])
+res3 = int(a[3:])
+print(res, res1, res2, res3)

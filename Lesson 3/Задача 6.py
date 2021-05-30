@@ -1,0 +1,5 @@
+a = input('Введите первое число: ')
+b = input('Введите второе число: ')
+result1 = int(a[-2:])
+result2 = int(b[-2:])
+print(result1 + result2)
