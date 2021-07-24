@@ -1,5 +1,5 @@
 rating = int(input('Что получил по математике? '))
 if rating <= 3:
     print('Плохо. Марш учиться!')
-elif rating < 4 or 5:
+elif rating >= 4 and 5:
     print('Молодец! Можешь отдохнуть.')
